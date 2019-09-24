@@ -22,7 +22,7 @@
 #Run: choco pack
 
 # Test the package (should be done on a VM; package-name is the id element in the nuspec)
-#Run: choco install package-name --source . 
+#Run: choco install <package id> --source="'c:\folder\with\package'"
 
 # Push the package to the Chocolatey community package repository (https://chocolatey.org/account/register)
 #Run: choco apikey -k [API_KEY_HERE] -source https://push.chocolatey.org/
@@ -32,7 +32,7 @@
 # Common NuSpec Mistakes
 #
 
-# id shoud contain no spaces (use '-' instead), should be lowercase
+# id should contain no spaces (use '-' instead), should be lowercase
 # version is a dot-separated identifier containing a maximum of 4 numbers
 
 #
