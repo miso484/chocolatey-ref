@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>notepadplusplus</id>
+    <version>7.7</version>
+    <title>Notepad++ (Install)</title>
+    <authors>Don Ho</authors>
+    <owners>WaySeven</owners>
+    <description>Notepad++ is a free source code editor </description>
+    </metadata>
+  <files>
+    <file src="tools\**" target="tools" />    
+  </files>
+</package>
